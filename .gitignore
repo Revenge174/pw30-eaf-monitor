@@ -1,0 +1,21 @@
+# Ambiente virtuale Python
+.venv/
+venv/
+
+# File compilati e cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Database generati in locale (si ricreano con lo script)
+*.db
+*.sqlite
+
+# Editor e sistema operativo
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Variabili d'ambiente
+.env
